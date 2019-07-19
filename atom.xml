@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Apricity</title>
+  <title>小钊のblog</title>
   
-  
+  <subtitle>樱吹雪荡谁在飞</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-18T14:47:12.089Z</updated>
+  <updated>2019-07-19T14:46:26.576Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2019/07/18/first/"/>
-    <id>http://yoursite.com/2019/07/18/first/</id>
-    <published>2019-07-18T14:47:12.089Z</published>
-    <updated>2019-07-18T14:47:12.089Z</updated>
+    <title>First Test</title>
+    <link href="http://yoursite.com/2018/02/01/first/"/>
+    <id>http://yoursite.com/2018/02/01/first/</id>
+    <published>2018-02-01T09:44:18.000Z</published>
+    <updated>2019-07-19T14:46:26.576Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2018-07-18-2019-07-18"><a href="#2018-07-18-2019-07-18" class="headerlink" title="2018.07.18-2019.07.18"></a><center>2018.07.18-2019.07.18</center></h1><hr><font face="黑体" size="3"><center>一年前兴起搭建好了这个博客</center><center>不知道该写什么</center><center>前几天也是兴起</center><center>重新配置了一下环境</center><center>还是不知道该写什么</center><font><hr><font face="黑体" size="0.3"><ul><li><center>希望自己能写出技术贴</center></li></ul><font></font></font></font></font>]]></content>
     
@@ -34,6 +34,10 @@
     
     </summary>
     
+    
+      <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
