@@ -37,11 +37,6 @@
 
   
 
-
-
-  <link rel="stylesheet" href="/lib/gitalk/gitalk.css">
-  <script src="/lib/gitalk/gitalk.min.js"></script>
-
 </head>
 </html>
 <body>
@@ -374,27 +369,28 @@
   
 
   
+  <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+
+<script>
+var gitalk = new Gitalk({
+  clientID: 'a779d184d1b0eb5bc41f',
+  clientSecret: '829fee239bf6a0aa2a76343831b9d34efc338f32',
+  repo: 'blog_comments',
+  owner: 'u2vino',
+  admin: ['u2vino'],
+  id: md5(window.location.pathname),
+  distractionFreeMode: true
+})
+
+gitalk.render('gitalk-container')
+</script>
 
   
 
   
-
-      <div class="gitalk">
-    <div id="gitalk-container"></div>
-    <script type="text/javascript">
-        const gitalk = new Gitalk({
-            clientID: '',
-            clientSecret: '',
-            repo: 'u2vino.github.io',
-            owner: 'u2vino',
-            admin: ['u2vino'],
-            id: md5(location.pathname),      // Ensure uniqueness and length less than 50
-            distractionFreeMode: false  // Facebook-like distraction free mode
-        })
- 
-        gitalk.render('gitalk-container')
-    </script>
-</div>
 
   
 
@@ -409,13 +405,14 @@
     		&copy;2018-2019 U2VINO
     	</div>
       	<div class="footer-right">
- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
       	    <span id="busuanzi_container_site_pv">
-                本站总访问量：<span id="busuanzi_value_site_pv"></span>次
+                本站总访问量：<span id="busuanzi_value_site_pv"></span>
             </span>
             <span class="post-meta-divider">|</span>
             <span id="busuanzi_container_site_uv">
-                本站访客数：<span id="busuanzi_value_site_uv"></span>人
+                本站访客数：<span id="busuanzi_value_site_uv"></span>
             </span>
       	</div>
     </div>
