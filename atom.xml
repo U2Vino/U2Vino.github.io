@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-07-20T12:23:04.500Z</updated>
+  <updated>2019-07-20T14:12:59.049Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,24 +17,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>First Test</title>
-    <link href="http://yoursite.com/2019/07/20/first/"/>
-    <id>http://yoursite.com/2019/07/20/first/</id>
+    <title>小钊のBlog</title>
+    <link href="http://yoursite.com/2019/07/20/first_blog/"/>
+    <id>http://yoursite.com/2019/07/20/first_blog/</id>
     <published>2019-07-19T16:00:00.000Z</published>
-    <updated>2019-07-20T12:23:04.500Z</updated>
+    <updated>2019-07-20T14:12:59.049Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="First-Test"><a href="#First-Test" class="headerlink" title="First Test"></a>First Test</h1><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>  Markdwon 是一种轻量级 标记语言，它以纯文本形式（易读、易写、易更改）编写文档，并最终以HTLM格式发布。Markdown也可以理解为将以 MARKDOWN语法编写的语言转换成HTML内容的工具。</p><a id="more"></a><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/ubuntu.jpg?token=AE5QLJYAK662DQZKWCVM6PC5GMD5Q" alt></p><hr><blockquote><p>  这是引用</p></blockquote><blockquote><blockquote><p>这是引用</p></blockquote></blockquote><blockquote><blockquote><blockquote><p>这是引用</p></blockquote></blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="个人博客的介绍"><a href="#个人博客的介绍" class="headerlink" title="个人博客的介绍"></a>个人博客的介绍</h1><p>  这是我的<em>第一篇正式blog</em>，主要向大家介绍以下内容：</p><ul><li><p>此博客的搭建环境</p></li><li><p>已实现的功能</p></li><li><p>致谢与展望</p></li></ul><a id="more"></a><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=26177038&auto=1&height=66"></iframe><h2 id="一、搭建环境"><a href="#一、搭建环境" class="headerlink" title="一、搭建环境"></a>一、搭建环境</h2><blockquote><ul><li>操作系统：Ubuntu 18.04 LTS</li></ul></blockquote><blockquote><ul><li>Blog架构：Hexo</li></ul></blockquote><blockquote><ul><li>项目托管：Github</li></ul></blockquote><blockquote><ul><li>主题：Yilia</li></ul></blockquote><p>2018.07.18心血来潮搭建了这个免费的个人博客网站，搭建完就没下文了，时隔一年，也算是来还债，写下这篇文来记录生活。</p><p><strong>Tips</strong>: CSDN、简书以及知乎上有很多教程，感兴趣的朋友可以去看看～</p><h2 id="二、已实现的功能"><a href="#二、已实现的功能" class="headerlink" title="二、已实现的功能"></a>二、已实现的功能</h2><p><a href>Homepage</a>界面：</p><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/1.png" alt="1"></p><p><strong>Tips</strong>: 点击任何界面有小惊喜</p><h3 id="1-左侧"><a href="#1-左侧" class="headerlink" title="1.左侧"></a>1.左侧</h3><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/2.png" alt="左侧栏"></p><ul><li><p>(1)网站运行时间</p></li><li><p>(2) SmartMenu</p></li></ul><blockquote><p>“HOME”——回到主页</p></blockquote><blockquote><p>“ARCHIVES”——归档</p></blockquote><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/3.png" alt="3"></p><blockquote><p>“ALL”——所有文章，可根据标题和标签搜索文章</p></blockquote><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/4.png" alt="4"></p><blockquote><p>“小图标”点击效果依次为：</p></blockquote><blockquote><blockquote><p>跳转到博主本人的github/qq/wechat/bilibili/RSS</p></blockquote></blockquote><h3 id="2-右侧主体"><a href="#2-右侧主体" class="headerlink" title="2.右侧主体"></a>2.右侧主体</h3><ul><li>(1) 点击右下角“展开全文”可阅读全文。<br>文章顶部是字数统计和预计阅读时长<br>文章标题、阅读量及发表时间。</li></ul><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/8.png" alt="8"></p><ul><li>(4) 打赏</li></ul><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/6.png" alt="6"></p><ul><li>(5)分享此文</li></ul><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/9.png" alt="9"></p><ul><li>(6) 评论：登录Github账号参与评论</li></ul><p><img src="https://raw.githubusercontent.com/U2Vino/blog_photo/FirstTest/7.png" alt="7"></p><ul><li>(7) CNZZ统计</li></ul><h2 id="三、致谢与展望"><a href="#三、致谢与展望" class="headerlink" title="三、致谢与展望"></a>三、致谢与展望</h2><hr><ul><li>致谢</li></ul><p><strong>非常感谢各位能花几分钟的时间来看我的第一篇blog！！！第一次写博客，希望朋友们能多给我建议与<del>鼓励</del>，不足之处我会多多注意并改正！</strong></p><hr><ul><li>展望</li></ul><p>还想实现更多的功能，比如<del>相册</del>、<del>首页动画</del>、<del>扫码分享文章</del>等。经过测试，此站点某些功能对于<strong>移动端</strong>的适配不好，以后会抽出时间完善。</p><hr>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;First-Test&quot;&gt;&lt;a href=&quot;#First-Test&quot; class=&quot;headerlink&quot; title=&quot;First Test&quot;&gt;&lt;/a&gt;First Test&lt;/h1&gt;&lt;h2 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown&lt;/h2&gt;&lt;p&gt;  Markdwon 是一种轻量级 标记语言，它以纯文本形式（易读、易写、易更改）编写文档，并最终以HTLM格式发布。Markdown也可以理解为将以 MARKDOWN语法编写的语言转换成HTML内容的工具。&lt;/p&gt;
+      &lt;h1 id=&quot;个人博客的介绍&quot;&gt;&lt;a href=&quot;#个人博客的介绍&quot; class=&quot;headerlink&quot; title=&quot;个人博客的介绍&quot;&gt;&lt;/a&gt;个人博客的介绍&lt;/h1&gt;&lt;p&gt;  这是我的&lt;em&gt;第一篇正式blog&lt;/em&gt;，主要向大家介绍以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;此博客的搭建环境&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;已实现的功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;致谢与展望&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
     
-      <category term="tag_one" scheme="http://yoursite.com/tags/tag-one/"/>
+      <category term="博客介绍" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2%E4%BB%8B%E7%BB%8D/"/>
     
-      <category term="tag_two" scheme="http://yoursite.com/tags/tag-two/"/>
+      <category term="经验记录" scheme="http://yoursite.com/tags/%E7%BB%8F%E9%AA%8C%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
