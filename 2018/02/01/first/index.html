@@ -379,24 +379,22 @@
 
   
 
-      <div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
-
-<script>
-var gitalk = new Gitalk({
-  clientID: 'a779d184d1b0eb5bc41f',
-  clientSecret: '829fee239bf6a0aa2a76343831b9d34efc338f32',
-  repo: 'https://github.com/U2Vino/U2Vino.github.io',
-  owner: 'u2vino',
-  admin: ['u2vino'],
-  id: md5(window.location.pathname),
-  distractionFreeMode: true
-})
-
-gitalk.render('gitalk-container')
-</script>
+      <div class="gitalk">
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: 'https://github.com/U2Vino/U2Vino.github.io',
+            owner: 'u2vino',
+            admin: ['u2vino'],
+            id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+            distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+ 
+        gitalk.render('gitalk-container')
+    </script>
+</div>
 
   
 
